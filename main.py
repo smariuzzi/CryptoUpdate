@@ -56,7 +56,7 @@ def find_cells(workbook, keys):
 
 if __name__ == '__main__':
     wb = load_workbook(filename=file_name)
-    keys = ['BTC', 'ETH', 'STE']
+    keys = ['BTC', 'ETH', 'STE', 'BHO']
     print(find_cells(wb, keys))
 
 
